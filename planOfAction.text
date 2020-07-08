@@ -1,10 +1,11 @@
-- HTML -base of the website: * menu
-                             * headline(my name is...)
+- HTML -base of the website: * menu DONE
+                             * headline(my name is...)  DONE
                              * logo, title, 
-                             * 
+                             * when you open the contact navbar - it'll be like an unordered list that has soical media 
+                             icons that is connected to the page, you don't need a page for it now. 
 
 
-- Style the HTML
+- Style the HTML 
 
 - Make it responsive (sketch + do it )
 
