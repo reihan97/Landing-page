@@ -7,6 +7,7 @@
 
 body { 
     background-color: #174a29;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -48,7 +49,6 @@ a{
     color: #ffb100;
     letter-spacing: 3px;
     font-weight: 200;
-    font-family: monospace;
     font-size: 20px;
 }
 .nav li{
@@ -65,14 +65,16 @@ a{
 #headline {
     display: flex;
     background-color: #174a29;
-    flex-grow: 9;
+    flex-grow: 6;
     justify-content: flex-start;
     order: 5;
     color: #ffb100;
     letter-spacing: 3px;
-    font-weight: 200;
-    font-family: monospace;
-    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: left;
 }
 
 #headline p {
@@ -103,6 +105,7 @@ a{
     top: 0;
     background-color: rgba(0,0,0, 0.9);;
     transform: 0.5s;
+    display: none;
 }
 svg, #linkedin img{
     width: 60px;
@@ -116,6 +119,11 @@ svg, #linkedin img{
     width: 100%;
     text-align: center;
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
 }
   
 #contact-nav a {
@@ -123,6 +131,7 @@ svg, #linkedin img{
     text-decoration: none;
     display: block;
     transition: 0.3s;  /* Transition effects on hover (color) */
+
 }
 #contact-nav a:hover, #contact-nav a:focus{
     color: #f1f1f1;
@@ -152,7 +161,11 @@ svg, #linkedin img{
     color: white;
     letter-spacing: 3px;
     font-weight: 200;
-    font-family: monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
    
   }
+.overlay-content div{
+  justify-content:space-between;
+  margin: 45px;
+}
